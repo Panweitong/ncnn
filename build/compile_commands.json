@@ -1,0 +1,207 @@
+[
+{
+  "directory": "/content/ncnn/build/glslang/glslang",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX  -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -std=c++11 -o CMakeFiles/GenericCodeGen.dir/GenericCodeGen/CodeGen.cpp.o -c /content/ncnn/glslang/glslang/GenericCodeGen/CodeGen.cpp",
+  "file": "/content/ncnn/glslang/glslang/GenericCodeGen/CodeGen.cpp"
+},
+{
+  "directory": "/content/ncnn/build/glslang/glslang",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX  -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -std=c++11 -o CMakeFiles/GenericCodeGen.dir/GenericCodeGen/Link.cpp.o -c /content/ncnn/glslang/glslang/GenericCodeGen/Link.cpp",
+  "file": "/content/ncnn/glslang/glslang/GenericCodeGen/Link.cpp"
+},
+{
+  "directory": "/content/ncnn/build/glslang/glslang",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/content/ncnn/build/include -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -pthread -std=c++11 -o CMakeFiles/MachineIndependent.dir/MachineIndependent/glslang_tab.cpp.o -c /content/ncnn/glslang/glslang/MachineIndependent/glslang_tab.cpp",
+  "file": "/content/ncnn/glslang/glslang/MachineIndependent/glslang_tab.cpp"
+},
+{
+  "directory": "/content/ncnn/build/glslang/glslang",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/content/ncnn/build/include -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -pthread -std=c++11 -o CMakeFiles/MachineIndependent.dir/MachineIndependent/attribute.cpp.o -c /content/ncnn/glslang/glslang/MachineIndependent/attribute.cpp",
+  "file": "/content/ncnn/glslang/glslang/MachineIndependent/attribute.cpp"
+},
+{
+  "directory": "/content/ncnn/build/glslang/glslang",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/content/ncnn/build/include -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -pthread -std=c++11 -o CMakeFiles/MachineIndependent.dir/MachineIndependent/Constant.cpp.o -c /content/ncnn/glslang/glslang/MachineIndependent/Constant.cpp",
+  "file": "/content/ncnn/glslang/glslang/MachineIndependent/Constant.cpp"
+},
+{
+  "directory": "/content/ncnn/build/glslang/glslang",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/content/ncnn/build/include -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -pthread -std=c++11 -o CMakeFiles/MachineIndependent.dir/MachineIndependent/iomapper.cpp.o -c /content/ncnn/glslang/glslang/MachineIndependent/iomapper.cpp",
+  "file": "/content/ncnn/glslang/glslang/MachineIndependent/iomapper.cpp"
+},
+{
+  "directory": "/content/ncnn/build/glslang/glslang",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/content/ncnn/build/include -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -pthread -std=c++11 -o CMakeFiles/MachineIndependent.dir/MachineIndependent/InfoSink.cpp.o -c /content/ncnn/glslang/glslang/MachineIndependent/InfoSink.cpp",
+  "file": "/content/ncnn/glslang/glslang/MachineIndependent/InfoSink.cpp"
+},
+{
+  "directory": "/content/ncnn/build/glslang/glslang",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/content/ncnn/build/include -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -pthread -std=c++11 -o CMakeFiles/MachineIndependent.dir/MachineIndependent/Initialize.cpp.o -c /content/ncnn/glslang/glslang/MachineIndependent/Initialize.cpp",
+  "file": "/content/ncnn/glslang/glslang/MachineIndependent/Initialize.cpp"
+},
+{
+  "directory": "/content/ncnn/build/glslang/glslang",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/content/ncnn/build/include -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -pthread -std=c++11 -o CMakeFiles/MachineIndependent.dir/MachineIndependent/IntermTraverse.cpp.o -c /content/ncnn/glslang/glslang/MachineIndependent/IntermTraverse.cpp",
+  "file": "/content/ncnn/glslang/glslang/MachineIndependent/IntermTraverse.cpp"
+},
+{
+  "directory": "/content/ncnn/build/glslang/glslang",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/content/ncnn/build/include -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -pthread -std=c++11 -o CMakeFiles/MachineIndependent.dir/MachineIndependent/Intermediate.cpp.o -c /content/ncnn/glslang/glslang/MachineIndependent/Intermediate.cpp",
+  "file": "/content/ncnn/glslang/glslang/MachineIndependent/Intermediate.cpp"
+},
+{
+  "directory": "/content/ncnn/build/glslang/glslang",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/content/ncnn/build/include -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -pthread -std=c++11 -o CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseContextBase.cpp.o -c /content/ncnn/glslang/glslang/MachineIndependent/ParseContextBase.cpp",
+  "file": "/content/ncnn/glslang/glslang/MachineIndependent/ParseContextBase.cpp"
+},
+{
+  "directory": "/content/ncnn/build/glslang/glslang",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/content/ncnn/build/include -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -pthread -std=c++11 -o CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseHelper.cpp.o -c /content/ncnn/glslang/glslang/MachineIndependent/ParseHelper.cpp",
+  "file": "/content/ncnn/glslang/glslang/MachineIndependent/ParseHelper.cpp"
+},
+{
+  "directory": "/content/ncnn/build/glslang/glslang",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/content/ncnn/build/include -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -pthread -std=c++11 -o CMakeFiles/MachineIndependent.dir/MachineIndependent/PoolAlloc.cpp.o -c /content/ncnn/glslang/glslang/MachineIndependent/PoolAlloc.cpp",
+  "file": "/content/ncnn/glslang/glslang/MachineIndependent/PoolAlloc.cpp"
+},
+{
+  "directory": "/content/ncnn/build/glslang/glslang",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/content/ncnn/build/include -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -pthread -std=c++11 -o CMakeFiles/MachineIndependent.dir/MachineIndependent/RemoveTree.cpp.o -c /content/ncnn/glslang/glslang/MachineIndependent/RemoveTree.cpp",
+  "file": "/content/ncnn/glslang/glslang/MachineIndependent/RemoveTree.cpp"
+},
+{
+  "directory": "/content/ncnn/build/glslang/glslang",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/content/ncnn/build/include -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -pthread -std=c++11 -o CMakeFiles/MachineIndependent.dir/MachineIndependent/Scan.cpp.o -c /content/ncnn/glslang/glslang/MachineIndependent/Scan.cpp",
+  "file": "/content/ncnn/glslang/glslang/MachineIndependent/Scan.cpp"
+},
+{
+  "directory": "/content/ncnn/build/glslang/glslang",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/content/ncnn/build/include -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -pthread -std=c++11 -o CMakeFiles/MachineIndependent.dir/MachineIndependent/ShaderLang.cpp.o -c /content/ncnn/glslang/glslang/MachineIndependent/ShaderLang.cpp",
+  "file": "/content/ncnn/glslang/glslang/MachineIndependent/ShaderLang.cpp"
+},
+{
+  "directory": "/content/ncnn/build/glslang/glslang",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/content/ncnn/build/include -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -pthread -std=c++11 -o CMakeFiles/MachineIndependent.dir/MachineIndependent/SymbolTable.cpp.o -c /content/ncnn/glslang/glslang/MachineIndependent/SymbolTable.cpp",
+  "file": "/content/ncnn/glslang/glslang/MachineIndependent/SymbolTable.cpp"
+},
+{
+  "directory": "/content/ncnn/build/glslang/glslang",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/content/ncnn/build/include -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -pthread -std=c++11 -o CMakeFiles/MachineIndependent.dir/MachineIndependent/Versions.cpp.o -c /content/ncnn/glslang/glslang/MachineIndependent/Versions.cpp",
+  "file": "/content/ncnn/glslang/glslang/MachineIndependent/Versions.cpp"
+},
+{
+  "directory": "/content/ncnn/build/glslang/glslang",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/content/ncnn/build/include -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -pthread -std=c++11 -o CMakeFiles/MachineIndependent.dir/MachineIndependent/intermOut.cpp.o -c /content/ncnn/glslang/glslang/MachineIndependent/intermOut.cpp",
+  "file": "/content/ncnn/glslang/glslang/MachineIndependent/intermOut.cpp"
+},
+{
+  "directory": "/content/ncnn/build/glslang/glslang",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/content/ncnn/build/include -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -pthread -std=c++11 -o CMakeFiles/MachineIndependent.dir/MachineIndependent/limits.cpp.o -c /content/ncnn/glslang/glslang/MachineIndependent/limits.cpp",
+  "file": "/content/ncnn/glslang/glslang/MachineIndependent/limits.cpp"
+},
+{
+  "directory": "/content/ncnn/build/glslang/glslang",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/content/ncnn/build/include -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -pthread -std=c++11 -o CMakeFiles/MachineIndependent.dir/MachineIndependent/linkValidate.cpp.o -c /content/ncnn/glslang/glslang/MachineIndependent/linkValidate.cpp",
+  "file": "/content/ncnn/glslang/glslang/MachineIndependent/linkValidate.cpp"
+},
+{
+  "directory": "/content/ncnn/build/glslang/glslang",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/content/ncnn/build/include -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -pthread -std=c++11 -o CMakeFiles/MachineIndependent.dir/MachineIndependent/parseConst.cpp.o -c /content/ncnn/glslang/glslang/MachineIndependent/parseConst.cpp",
+  "file": "/content/ncnn/glslang/glslang/MachineIndependent/parseConst.cpp"
+},
+{
+  "directory": "/content/ncnn/build/glslang/glslang",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/content/ncnn/build/include -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -pthread -std=c++11 -o CMakeFiles/MachineIndependent.dir/MachineIndependent/reflection.cpp.o -c /content/ncnn/glslang/glslang/MachineIndependent/reflection.cpp",
+  "file": "/content/ncnn/glslang/glslang/MachineIndependent/reflection.cpp"
+},
+{
+  "directory": "/content/ncnn/build/glslang/glslang",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/content/ncnn/build/include -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -pthread -std=c++11 -o CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/Pp.cpp.o -c /content/ncnn/glslang/glslang/MachineIndependent/preprocessor/Pp.cpp",
+  "file": "/content/ncnn/glslang/glslang/MachineIndependent/preprocessor/Pp.cpp"
+},
+{
+  "directory": "/content/ncnn/build/glslang/glslang",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/content/ncnn/build/include -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -pthread -std=c++11 -o CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpAtom.cpp.o -c /content/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpAtom.cpp",
+  "file": "/content/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpAtom.cpp"
+},
+{
+  "directory": "/content/ncnn/build/glslang/glslang",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/content/ncnn/build/include -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -pthread -std=c++11 -o CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpContext.cpp.o -c /content/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpContext.cpp",
+  "file": "/content/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpContext.cpp"
+},
+{
+  "directory": "/content/ncnn/build/glslang/glslang",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/content/ncnn/build/include -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -pthread -std=c++11 -o CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpScanner.cpp.o -c /content/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpScanner.cpp",
+  "file": "/content/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpScanner.cpp"
+},
+{
+  "directory": "/content/ncnn/build/glslang/glslang",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/content/ncnn/build/include -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -pthread -std=c++11 -o CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpTokens.cpp.o -c /content/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpTokens.cpp",
+  "file": "/content/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpTokens.cpp"
+},
+{
+  "directory": "/content/ncnn/build/glslang/glslang",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/content/ncnn/build/include -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -pthread -std=c++11 -o CMakeFiles/MachineIndependent.dir/MachineIndependent/propagateNoContraction.cpp.o -c /content/ncnn/glslang/glslang/MachineIndependent/propagateNoContraction.cpp",
+  "file": "/content/ncnn/glslang/glslang/MachineIndependent/propagateNoContraction.cpp"
+},
+{
+  "directory": "/content/ncnn/build/glslang/glslang",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/content/ncnn/glslang/glslang/.. -I/content/ncnn/build/include -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -pthread -std=c++11 -o CMakeFiles/glslang.dir/CInterface/glslang_c_interface.cpp.o -c /content/ncnn/glslang/glslang/CInterface/glslang_c_interface.cpp",
+  "file": "/content/ncnn/glslang/glslang/CInterface/glslang_c_interface.cpp"
+},
+{
+  "directory": "/content/ncnn/build/glslang/glslang/OSDependent/Unix",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX  -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -pthread -std=c++11 -o CMakeFiles/OSDependent.dir/ossource.cpp.o -c /content/ncnn/glslang/glslang/OSDependent/Unix/ossource.cpp",
+  "file": "/content/ncnn/glslang/glslang/OSDependent/Unix/ossource.cpp"
+},
+{
+  "directory": "/content/ncnn/build/glslang/OGLCompilersDLL",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX  -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -std=c++11 -o CMakeFiles/OGLCompiler.dir/InitializeDll.cpp.o -c /content/ncnn/glslang/OGLCompilersDLL/InitializeDll.cpp",
+  "file": "/content/ncnn/glslang/OGLCompilersDLL/InitializeDll.cpp"
+},
+{
+  "directory": "/content/ncnn/build/glslang/SPIRV",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/content/ncnn/glslang/SPIRV/.. -I/content/ncnn/build/include -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -std=c++11 -o CMakeFiles/SPIRV.dir/GlslangToSpv.cpp.o -c /content/ncnn/glslang/SPIRV/GlslangToSpv.cpp",
+  "file": "/content/ncnn/glslang/SPIRV/GlslangToSpv.cpp"
+},
+{
+  "directory": "/content/ncnn/build/glslang/SPIRV",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/content/ncnn/glslang/SPIRV/.. -I/content/ncnn/build/include -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -std=c++11 -o CMakeFiles/SPIRV.dir/InReadableOrder.cpp.o -c /content/ncnn/glslang/SPIRV/InReadableOrder.cpp",
+  "file": "/content/ncnn/glslang/SPIRV/InReadableOrder.cpp"
+},
+{
+  "directory": "/content/ncnn/build/glslang/SPIRV",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/content/ncnn/glslang/SPIRV/.. -I/content/ncnn/build/include -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -std=c++11 -o CMakeFiles/SPIRV.dir/Logger.cpp.o -c /content/ncnn/glslang/SPIRV/Logger.cpp",
+  "file": "/content/ncnn/glslang/SPIRV/Logger.cpp"
+},
+{
+  "directory": "/content/ncnn/build/glslang/SPIRV",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/content/ncnn/glslang/SPIRV/.. -I/content/ncnn/build/include -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -std=c++11 -o CMakeFiles/SPIRV.dir/SpvBuilder.cpp.o -c /content/ncnn/glslang/SPIRV/SpvBuilder.cpp",
+  "file": "/content/ncnn/glslang/SPIRV/SpvBuilder.cpp"
+},
+{
+  "directory": "/content/ncnn/build/glslang/SPIRV",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/content/ncnn/glslang/SPIRV/.. -I/content/ncnn/build/include -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -std=c++11 -o CMakeFiles/SPIRV.dir/SpvPostProcess.cpp.o -c /content/ncnn/glslang/SPIRV/SpvPostProcess.cpp",
+  "file": "/content/ncnn/glslang/SPIRV/SpvPostProcess.cpp"
+},
+{
+  "directory": "/content/ncnn/build/glslang/SPIRV",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/content/ncnn/glslang/SPIRV/.. -I/content/ncnn/build/include -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -std=c++11 -o CMakeFiles/SPIRV.dir/doc.cpp.o -c /content/ncnn/glslang/SPIRV/doc.cpp",
+  "file": "/content/ncnn/glslang/SPIRV/doc.cpp"
+},
+{
+  "directory": "/content/ncnn/build/glslang/SPIRV",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/content/ncnn/glslang/SPIRV/.. -I/content/ncnn/build/include -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -std=c++11 -o CMakeFiles/SPIRV.dir/SpvTools.cpp.o -c /content/ncnn/glslang/SPIRV/SpvTools.cpp",
+  "file": "/content/ncnn/glslang/SPIRV/SpvTools.cpp"
+},
+{
+  "directory": "/content/ncnn/build/glslang/SPIRV",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/content/ncnn/glslang/SPIRV/.. -I/content/ncnn/build/include -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -std=c++11 -o CMakeFiles/SPIRV.dir/disassemble.cpp.o -c /content/ncnn/glslang/SPIRV/disassemble.cpp",
+  "file": "/content/ncnn/glslang/SPIRV/disassemble.cpp"
+},
+{
+  "directory": "/content/ncnn/build/glslang/SPIRV",
+  "command": "/usr/bin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/content/ncnn/glslang/SPIRV/.. -I/content/ncnn/build/include -O3 -DNDEBUG -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -std=c++11 -o CMakeFiles/SPIRV.dir/CInterface/spirv_c_interface.cpp.o -c /content/ncnn/glslang/SPIRV/CInterface/spirv_c_interface.cpp",
+  "file": "/content/ncnn/glslang/SPIRV/CInterface/spirv_c_interface.cpp"
+}
+]

@@ -1,0 +1,78 @@
+Performing C++ SOURCE FILE Test NCNN_COMPILER_SUPPORT_X86_AVX_VNNI failed with the following output:
+Change Dir: /content/ncnn/build/CMakeFiles/CMakeScratch/TryCompile-9Ju9iI
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_eb760/fast && /usr/bin/make  -f CMakeFiles/cmTC_eb760.dir/build.make CMakeFiles/cmTC_eb760.dir/build
+make[1]: Entering directory '/content/ncnn/build/CMakeFiles/CMakeScratch/TryCompile-9Ju9iI'
+Building CXX object CMakeFiles/cmTC_eb760.dir/src.cxx.o
+/usr/bin/c++ -DNCNN_COMPILER_SUPPORT_X86_AVX_VNNI  -mfma -mf16c -mavx2 -mavxvnni -o CMakeFiles/cmTC_eb760.dir/src.cxx.o -c /content/ncnn/build/CMakeFiles/CMakeScratch/TryCompile-9Ju9iI/src.cxx
+c++: error: unrecognized command line option ‘-mavxvnni’; did you mean ‘-mavx512vnni’?
+make[1]: *** [CMakeFiles/cmTC_eb760.dir/build.make:78: CMakeFiles/cmTC_eb760.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/content/ncnn/build/CMakeFiles/CMakeScratch/TryCompile-9Ju9iI'
+make: *** [Makefile:127: cmTC_eb760/fast] Error 2
+
+
+Source file was:
+#include <immintrin.h>
+int main() { __m256i _s, _a, _b; _s = _mm256_dpwssd_epi32(_s, _a, _b); return 0; }
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /content/ncnn/build/CMakeFiles/CMakeScratch/TryCompile-pCLKMG
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e2412/fast && /usr/bin/make  -f CMakeFiles/cmTC_e2412.dir/build.make CMakeFiles/cmTC_e2412.dir/build
+make[1]: Entering directory '/content/ncnn/build/CMakeFiles/CMakeScratch/TryCompile-pCLKMG'
+Building C object CMakeFiles/cmTC_e2412.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_e2412.dir/src.c.o -c /content/ncnn/build/CMakeFiles/CMakeScratch/TryCompile-pCLKMG/src.c
+Linking C executable cmTC_e2412
+/usr/local/lib/python3.10/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2412.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_e2412.dir/src.c.o -o cmTC_e2412 
+/usr/bin/ld: CMakeFiles/cmTC_e2412.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x5e): undefined reference to `pthread_cancel'
+/usr/bin/ld: src.c:(.text+0x6f): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_e2412.dir/build.make:99: cmTC_e2412] Error 1
+make[1]: Leaving directory '/content/ncnn/build/CMakeFiles/CMakeScratch/TryCompile-pCLKMG'
+make: *** [Makefile:127: cmTC_e2412/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /content/ncnn/build/CMakeFiles/CMakeScratch/TryCompile-upf3lI
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0865c/fast && /usr/bin/make  -f CMakeFiles/cmTC_0865c.dir/build.make CMakeFiles/cmTC_0865c.dir/build
+make[1]: Entering directory '/content/ncnn/build/CMakeFiles/CMakeScratch/TryCompile-upf3lI'
+Building C object CMakeFiles/cmTC_0865c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_0865c.dir/CheckFunctionExists.c.o -c /content/ncnn/build/CMakeFiles/CMakeScratch/TryCompile-upf3lI/CheckFunctionExists.c
+Linking C executable cmTC_0865c
+/usr/local/lib/python3.10/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0865c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_0865c.dir/CheckFunctionExists.c.o -o cmTC_0865c  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_0865c.dir/build.make:99: cmTC_0865c] Error 1
+make[1]: Leaving directory '/content/ncnn/build/CMakeFiles/CMakeScratch/TryCompile-upf3lI'
+make: *** [Makefile:127: cmTC_0865c/fast] Error 2
+
+
+
